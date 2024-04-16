@@ -83,7 +83,11 @@ textarea {
 }
 
 button {
+<<<<<<< HEAD
     background-color: #ff9900; /* Change background color of buttons */
+=======
+    background-color: #5900ff; /* Change background color of buttons */
+>>>>>>> 02c11d69fe1fa1336434c44afe2aea3a0b8382c1
     color: #fff; /* Change text color of buttons */
     padding: 10px 15px;
     border: none;
@@ -93,7 +97,11 @@ button {
 }
 
 button:hover {
+<<<<<<< HEAD
     background-color: #cc7700; /* Change background color of buttons on hover */
+=======
+    background-color: #5800cc; /* Change background color of buttons on hover */
+>>>>>>> 02c11d69fe1fa1336434c44afe2aea3a0b8382c1
 }
 
 /* Responsive styles */
