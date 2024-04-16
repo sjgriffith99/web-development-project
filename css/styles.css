@@ -9,6 +9,7 @@ li {
     padding: 0;
 }
 
+/* Global styles */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -42,6 +43,11 @@ nav a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+    transition: color 0.3s; /* Add transition effect for navigation links */
+}
+
+nav a:hover {
+    color: #ff9900; /* Change color of navigation links on hover */
 }
 
 section {
@@ -53,6 +59,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Form styles */
 form {
     display: grid;
     gap: 10px;
@@ -60,21 +67,24 @@ form {
 
 label {
     font-weight: bold;
+    color: #555; /* Change color of form labels */
 }
 
-input,
+input[type="text"],
+input[type="email"],
 textarea {
     width: 100%;
     padding: 8px;
     margin-top: 4px;
     margin-bottom: 8px;
-    border: 1px solid #ccc;
+    background-color: #f9f9f9; /* Change background color of text fields */
+    border: 1px solid #ddd; /* Change border color of text fields */
     border-radius: 4px;
 }
 
 button {
-    background-color: #333;
-    color: #fff;
+    background-color: #ff9900; /* Change background color of buttons */
+    color: #fff; /* Change text color of buttons */
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
@@ -83,7 +93,7 @@ button {
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #cc7700; /* Change background color of buttons on hover */
 }
 
 /* Responsive styles */
